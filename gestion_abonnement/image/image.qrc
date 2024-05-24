@@ -1,0 +1,19 @@
+<RCC>
+    <qresource prefix="/">
+        <file>menu.jpg</file>
+        <file>logo.png</file>
+        <file>login.jpg</file>
+        <file>search-512.webp</file>
+        <file>background.jpg</file>
+        <file>background_3.png</file>
+        <file>refresh-button_61444.png</file>
+        <file>111-1114669_blank-person-hd-png-download.png</file>
+        <file>pngwing.com.png</file>
+        <file>pdf.png</file>
+        <file>stat.png</file>
+        <file>image.qrc</file>
+        <file>logo.ico</file>
+        <file>ocean.gif</file>
+        <file>youssef.jpg</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,34 @@
+ajout de formation :, 5556, Voile, Sidi Bou Said, 2024-05-10, 2024-05-12, Amateur, 200, 2024-05-10T16:25:21
+ajout de formation :, 5556, Voile, Sidi Bou Said, 2024-05-10, 2024-05-12, Amateur, 200, 2024-05-10T16:25:23
+ajout de formation :, 5577, Surf, Sidi Bou Said, 2024-05-10, 2024-05-19, Debutant, 300, 2024-05-10T16:26:02
+ajout de formation :, 5577, Surf, Sidi Bou Said, 2024-05-10, 2024-05-19, Debutant, 300, 2024-05-10T16:26:03
+supression de formation d'id =  5556 , 2024-05-10T16:26:32
+ajout de formation :, 5577, Surf, Sidi Bou Said, 2024-05-10, 2024-05-19, Debutant, 300, 2024-05-10T16:26:41
+ajout de formation :, 5577, Surf, Sidi Bou Said, 2024-05-10, 2024-05-19, Debutant, 300, 2024-05-10T16:26:42
+ajout de formation :, 55766, Surf, Sidi Bou Said, 2024-05-10, 2024-05-19, Debutant, 300, 2024-05-10T16:26:57
+ajout de formation :, 55766, Surf, Sidi Bou Said, 2024-05-10, 2024-05-19, Debutant, 300, 2024-05-10T16:26:57
+supression de formation d'id =  5577 , 2024-05-10T16:28:09
+supression de formation d'id =  55766 , 2024-05-10T16:28:24
+supression de formation d'id =  5556 , 2024-05-10T16:28:28
+supression de formation d'id =  5577 , 2024-05-10T16:28:32
+ajout de formation :, 456, Surf, Sidi Bou Said, 2024-05-10, 2024-05-19, Debutant, 300, 2024-05-10T16:28:42
+ajout de formation :, 456, Surf, Sidi Bou Said, 2024-05-10, 2024-05-19, Debutant, 300, 2024-05-10T16:28:45
+modification de formation d'id :, 456, Surf, Sidi Bou Said, 2024-05-10, 2024-05-29, Debutant, 300, 2024-05-10T16:30:46
+modification de formation d'id :, 456, Surf, Sidi Bou Said, 2024-05-10, 2024-05-29, Debutant, 300, 2024-05-10T16:30:46
+ajout de formation :, 7882, Surf, Sidi Bou Said, 2024-05-10, 2024-05-12, Professionnel, 250, 2024-05-10T17:43:36
+ajout de formation :, 7882, Surf, Sidi Bou Said, 2024-05-10, 2024-05-12, Professionnel, 250, 2024-05-10T17:43:44
+ajout de formation :, 25, Surf, Sidi Bou Said, 2024-05-10, 2024-05-12, Professionnel, 100, 2024-05-10T17:44:20
+ajout de formation :, 25, Surf, Sidi Bou Said, 2024-05-10, 2024-05-12, Professionnel, 100, 2024-05-10T17:44:21
+ajout de formation :, 26, Kayak, Sidi Bou Said, 2024-05-10, 2024-05-12, Professionnel, 100, 2024-05-10T17:46:10
+ajout de formation :, 26, Kayak, Sidi Bou Said, 2024-05-10, 2024-05-12, Professionnel, 100, 2024-05-10T17:46:11
+supression de formation d'id =  7882 , 2024-05-15T21:13:14
+supression de formation d'id =  25 , 2024-05-15T21:13:34
+ajout de formation :, 123, Kayak, Sidi Bou Said, 2024-05-15, 2024-05-16, Amateur, 200, 2024-05-15T22:50:03
+supression de formation d'id =  123 , 2024-05-15T22:50:17
+supression de formation d'id =  123 , 2024-05-15T22:55:51
+supression de formation d'id =  5577 , 2024-05-15T22:55:55
+supression de formation d'id =  26 , 2024-05-15T22:56:17
+ajout de formation :, 7050, Kayak, Sidi Bou Said, 2024-05-15, 2024-05-20, Debutant, 300, 2024-05-15T23:01:55
+supression de formation d'id =  7050 , 2024-05-15T23:02:05
+ajout de formation :, 6, Surf, Sidi Bou Said, 2024-05-15, 2024-05-20, Debutant, 300, 2024-05-15T23:02:21
+supression de formation d'id =  7050 , 2024-05-15T23:02:54

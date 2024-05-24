@@ -1,0 +1,13 @@
+C:/Program Files (x86)/SmtpClient/bin/libSmtpClient.dll
+C:/Program Files (x86)/SmtpClient/include/SmtpClient/emailaddress.h
+C:/Program Files (x86)/SmtpClient/include/SmtpClient/mimeattachment.h
+C:/Program Files (x86)/SmtpClient/include/SmtpClient/mimefile.h
+C:/Program Files (x86)/SmtpClient/include/SmtpClient/mimehtml.h
+C:/Program Files (x86)/SmtpClient/include/SmtpClient/mimeinlinefile.h
+C:/Program Files (x86)/SmtpClient/include/SmtpClient/mimemessage.h
+C:/Program Files (x86)/SmtpClient/include/SmtpClient/mimepart.h
+C:/Program Files (x86)/SmtpClient/include/SmtpClient/mimetext.h
+C:/Program Files (x86)/SmtpClient/include/SmtpClient/smtpclient.h
+C:/Program Files (x86)/SmtpClient/include/SmtpClient/quotedprintable.h
+C:/Program Files (x86)/SmtpClient/include/SmtpClient/mimemultipart.h
+C:/Program Files (x86)/SmtpClient/include/SmtpClient/mimecontentformatter.h

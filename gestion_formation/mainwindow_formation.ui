@@ -1,0 +1,1433 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow_formation</class>
+ <widget class="QMainWindow" name="MainWindow_formation">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1366</width>
+    <height>819</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>0</width>
+    <height>0</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>1366</width>
+    <height>819</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>mainwindow_formation</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <property name="minimumSize">
+    <size>
+     <width>1366</width>
+     <height>768</height>
+    </size>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout_4">
+    <item>
+     <widget class="QTabWidget" name="tabWidget">
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>1366</width>
+        <height>768</height>
+       </size>
+      </property>
+      <property name="currentIndex">
+       <number>0</number>
+      </property>
+      <widget class="QWidget" name="tab">
+       <property name="minimumSize">
+        <size>
+         <width>1366</width>
+         <height>768</height>
+        </size>
+       </property>
+       <attribute name="title">
+        <string>Ajouter</string>
+       </attribute>
+       <widget class="QWidget" name="formLayoutWidget_5">
+        <property name="geometry">
+         <rect>
+          <x>400</x>
+          <y>180</y>
+          <width>551</width>
+          <height>481</height>
+         </rect>
+        </property>
+        <layout class="QFormLayout" name="formLayout_10">
+         <property name="sizeConstraint">
+          <enum>QLayout::SetDefaultConstraint</enum>
+         </property>
+         <property name="fieldGrowthPolicy">
+          <enum>QFormLayout::FieldsStayAtSizeHint</enum>
+         </property>
+         <property name="rowWrapPolicy">
+          <enum>QFormLayout::WrapLongRows</enum>
+         </property>
+         <property name="labelAlignment">
+          <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+         </property>
+         <property name="formAlignment">
+          <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+         </property>
+         <property name="horizontalSpacing">
+          <number>20</number>
+         </property>
+         <property name="verticalSpacing">
+          <number>40</number>
+         </property>
+         <property name="leftMargin">
+          <number>0</number>
+         </property>
+         <property name="topMargin">
+          <number>0</number>
+         </property>
+         <item row="0" column="0">
+          <widget class="QLabel" name="cINLabel_9">
+           <property name="font">
+            <font>
+             <family>Bell MT</family>
+             <pointsize>14</pointsize>
+             <weight>75</weight>
+             <bold>true</bold>
+            </font>
+           </property>
+           <property name="text">
+            <string>Identifiant</string>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="1">
+          <widget class="QLineEdit" name="id">
+           <property name="font">
+            <font>
+             <family>Arial</family>
+             <pointsize>-1</pointsize>
+            </font>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">/* Style général du formulaire */
+QLineEdit {
+    border: 2px solid #4682B4; /* Bordure bleue */
+    border-radius: 5px; /* Coins arrondis */
+    padding: 5px; /* Espace intérieur */
+    font-size: 14px; /* Taille de la police */
+    font-family: &quot;Arial&quot;, sans-serif; /* Police de caractère */
+    color: #4682B4; /* Couleur du texte */
+    background-color: #F0F8FF; /* Couleur de fond */
+}
+
+/* Style lorsque le champ de formulaire est en focus */
+QLineEdit:focus {
+    border-color: #1E90FF; /* Bordure bleu clair en focus */
+}
+
+/* Style pour les champs désactivés */
+QLineEdit:disabled {
+    color: #808080; /* Texte gris pour les champs désactivés */
+    background-color: #F5F5F5; /* Fond gris clair pour les champs désactivés */
+}
+</string>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="0">
+          <widget class="QLabel" name="nomLabel_9">
+           <property name="font">
+            <font>
+             <family>Bell MT</family>
+             <pointsize>14</pointsize>
+             <weight>75</weight>
+             <bold>true</bold>
+            </font>
+           </property>
+           <property name="text">
+            <string>Spécialité</string>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="1">
+          <widget class="QComboBox" name="specialite">
+           <property name="styleSheet">
+            <string notr="true">QComboBox {
+    border: 2px solid #4682B4; /* Bordure de couleur 0EABB8 */
+    font-size: 15px; /* Taille de la police */
+    color: #333; /* Couleur du texte */
+}</string>
+           </property>
+           <item>
+            <property name="text">
+             <string>Kayak</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>Plongée sous-marine</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>Surf</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>Voile</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>Stand up paddle (SUP)</string>
+            </property>
+           </item>
+          </widget>
+         </item>
+         <item row="2" column="0">
+          <widget class="QLabel" name="prenomLabel_4">
+           <property name="font">
+            <font>
+             <family>Bell MT</family>
+             <pointsize>14</pointsize>
+             <weight>75</weight>
+             <bold>true</bold>
+            </font>
+           </property>
+           <property name="text">
+            <string>Lieu</string>
+           </property>
+          </widget>
+         </item>
+         <item row="2" column="1">
+          <widget class="QComboBox" name="lieu">
+           <property name="styleSheet">
+            <string notr="true">QComboBox {
+    border: 2px solid #4682B4; /* Bordure de couleur 0EABB8 */
+    font-size: 15px; /* Taille de la police */
+    color: #333; /* Couleur du texte */
+}</string>
+           </property>
+           <item>
+            <property name="text">
+             <string>Sidi Bou Said</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>La marsa</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>Gammarth</string>
+            </property>
+           </item>
+          </widget>
+         </item>
+         <item row="3" column="0">
+          <widget class="QLabel" name="sexeLabel_4">
+           <property name="font">
+            <font>
+             <family>Bell MT</family>
+             <pointsize>14</pointsize>
+             <weight>75</weight>
+             <bold>true</bold>
+            </font>
+           </property>
+           <property name="text">
+            <string>Date debut</string>
+           </property>
+          </widget>
+         </item>
+         <item row="3" column="1">
+          <widget class="QDateEdit" name="dated_f">
+           <property name="font">
+            <font>
+             <pointsize>10</pointsize>
+            </font>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QLineEdit {
+                border: 2px solid #3498db; /* Bordure bleue */
+                border-radius: 5px;
+                padding: 8px;
+                font-size: 14px;
+                color: #333333; /* Couleur du texte */
+            }
+
+            QLineEdit:focus {
+                border-color: #2980b9; /* Bordure bleue foncée lorsqu'en focus */
+            }</string>
+           </property>
+          </widget>
+         </item>
+         <item row="4" column="0">
+          <widget class="QLabel" name="dateDeNaissanceLabel_9">
+           <property name="font">
+            <font>
+             <family>Bell MT</family>
+             <pointsize>14</pointsize>
+             <weight>75</weight>
+             <bold>true</bold>
+            </font>
+           </property>
+           <property name="text">
+            <string>Date fin</string>
+           </property>
+          </widget>
+         </item>
+         <item row="4" column="1">
+          <widget class="QDateEdit" name="datef_f">
+           <property name="font">
+            <font>
+             <pointsize>10</pointsize>
+            </font>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QLineEdit {
+                border: 2px solid #3498db; /* Bordure bleue */
+                border-radius: 5px;
+                padding: 8px;
+                font-size: 14px;
+                color: #333333; /* Couleur du texte */
+            }
+
+            QLineEdit:focus {
+                border-color: #2980b9; /* Bordure bleue foncée lorsqu'en focus */
+            }</string>
+           </property>
+          </widget>
+         </item>
+         <item row="5" column="0">
+          <widget class="QLabel" name="posteLabel_4">
+           <property name="font">
+            <font>
+             <family>Bell MT</family>
+             <pointsize>14</pointsize>
+             <weight>75</weight>
+             <bold>true</bold>
+            </font>
+           </property>
+           <property name="text">
+            <string>Niveau de la formation</string>
+           </property>
+          </widget>
+         </item>
+         <item row="5" column="1">
+          <widget class="QComboBox" name="niveau">
+           <property name="styleSheet">
+            <string notr="true">QComboBox {
+    border: 2px solid #4682B4; /* Bordure de couleur 0EABB8 */
+    font-size: 15px; /* Taille de la police */
+    color: #333; /* Couleur du texte */
+}</string>
+           </property>
+           <item>
+            <property name="text">
+             <string>Debutant</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>Amateur</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>Professionnel</string>
+            </property>
+           </item>
+          </widget>
+         </item>
+         <item row="6" column="0">
+          <widget class="QLabel" name="salaireLabel_9">
+           <property name="font">
+            <font>
+             <family>Bell MT</family>
+             <pointsize>14</pointsize>
+             <weight>75</weight>
+             <bold>true</bold>
+            </font>
+           </property>
+           <property name="text">
+            <string>Prix</string>
+           </property>
+          </widget>
+         </item>
+         <item row="6" column="1">
+          <widget class="QLineEdit" name="prix">
+           <property name="styleSheet">
+            <string notr="true">/* Style général du formulaire */
+QLineEdit {
+    border: 2px solid #4682B4; /* Bordure bleue */
+    border-radius: 5px; /* Coins arrondis */
+    padding: 5px; /* Espace intérieur */
+    font-size: 14px; /* Taille de la police */
+    font-family: &quot;Arial&quot;, sans-serif; /* Police de caractère */
+    color: #4682B4; /* Couleur du texte */
+    background-color: #F0F8FF; /* Couleur de fond */
+}
+
+/* Style lorsque le champ de formulaire est en focus */
+QLineEdit:focus {
+    border-color: #1E90FF; /* Bordure bleu clair en focus */
+}
+
+/* Style pour les champs désactivés */
+QLineEdit:disabled {
+    color: #808080; /* Texte gris pour les champs désactivés */
+    background-color: #F5F5F5; /* Fond gris clair pour les champs désactivés */
+}
+</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+       <widget class="QPushButton" name="add_form">
+        <property name="geometry">
+         <rect>
+          <x>960</x>
+          <y>390</y>
+          <width>111</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">/* Styles généraux du bouton */
+QPushButton {
+    background-color: #ffffff; /* Bleu clair pour représenter l'eau */
+    border: 2px solid #0EABB8; /* Bordure bleue */
+    color: #0EABB8; /* Texte blanc */
+    padding: 10px ; /* Espacement intérieur */
+
+    font-weight: bold; /* Police en gras */
+    border-radius: 20px; /* Bordure arrondie */
+    outline: none; /* Supprime la bordure de focus */
+  
+    overflow: hidden; /* Cache le contenu débordant */
+    transition: background-color 0.3s, color 0.3s; /* Transition des couleurs */
+}
+
+/* Style au survol du bouton */
+QPushButton:hover {
+    background-color: #0EABB8; /* Fond devient blanc */
+    color: #ffffff; /* Texte devient bleu clair */
+}
+
+/* Style au clic du bouton */
+QPushButton:pressed {
+    background-color: #0EABB8; /* Bleu foncé lors du clic */
+    color: #f8f8f8; /* Texte blanc lors du clic */
+}
+
+/* Animation pour le pseudo-élément :after */
+QPushButton::after {
+    content: ''; /* Contenu vide */
+    position: absolute; /* Position absolue */
+    width: 100%; /* Largeur à 100% */
+    height: 100%; /* Hauteur à 100% */
+    background-color: rgba(255, 255, 255, 0.3); /* Fond semi-transparent */
+    top: 50%; /* Positionnement au centre vertical */
+    left: 50%; /* Positionnement au centre horizontal */
+    border-radius: 50%; /* Bordure arrondie */
+    transform: translate(-50%, -50%) scale(0); /* Réduit l'échelle à 0 */
+    transition: transform 0.5s ease; /* Transition de l'échelle */
+}
+
+/* Animation au survol du bouton */
+QPushButton:hover::after {
+    transform: translate(-50%, -50%) scale(2); /* Augmente l'échelle à 2 */
+}
+</string>
+        </property>
+        <property name="text">
+         <string>ajouter</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label">
+        <property name="geometry">
+         <rect>
+          <x>1320</x>
+          <y>760</y>
+          <width>47</width>
+          <height>14</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="pixmap">
+         <pixmap>../background_2.png</pixmap>
+        </property>
+        <property name="scaledContents">
+         <bool>true</bool>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_2">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>1366</width>
+          <height>768</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="pixmap">
+         <pixmap resource="../image/image.qrc">:/background_3.png</pixmap>
+        </property>
+        <property name="scaledContents">
+         <bool>true</bool>
+        </property>
+       </widget>
+       <zorder>label_2</zorder>
+       <zorder>label</zorder>
+       <zorder>formLayoutWidget_5</zorder>
+       <zorder>add_form</zorder>
+      </widget>
+      <widget class="QWidget" name="tab_2">
+       <property name="minimumSize">
+        <size>
+         <width>1366</width>
+         <height>768</height>
+        </size>
+       </property>
+       <attribute name="title">
+        <string>afficher</string>
+       </attribute>
+       <widget class="QPushButton" name="supprimer_form">
+        <property name="geometry">
+         <rect>
+          <x>550</x>
+          <y>570</y>
+          <width>221</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">/* Styles généraux du bouton */
+QPushButton {
+    background-color: #ffffff; /* Bleu clair pour représenter l'eau */
+    border: 2px solid #0EABB8; /* Bordure bleue */
+    color: #0EABB8; /* Texte blanc */
+    padding: 10px ; /* Espacement intérieur */
+
+    font-weight: bold; /* Police en gras */
+    border-radius: 20px; /* Bordure arrondie */
+    outline: none; /* Supprime la bordure de focus */
+  
+    overflow: hidden; /* Cache le contenu débordant */
+    transition: background-color 0.3s, color 0.3s; /* Transition des couleurs */
+}
+
+/* Style au survol du bouton */
+QPushButton:hover {
+    background-color: #0EABB8; /* Fond devient blanc */
+    color: #ffffff; /* Texte devient bleu clair */
+}
+
+/* Style au clic du bouton */
+QPushButton:pressed {
+    background-color: #0EABB8; /* Bleu foncé lors du clic */
+    color: #f8f8f8; /* Texte blanc lors du clic */
+}
+
+/* Animation pour le pseudo-élément :after */
+QPushButton::after {
+    content: ''; /* Contenu vide */
+    position: absolute; /* Position absolue */
+    width: 100%; /* Largeur à 100% */
+    height: 100%; /* Hauteur à 100% */
+    background-color: rgba(255, 255, 255, 0.3); /* Fond semi-transparent */
+    top: 50%; /* Positionnement au centre vertical */
+    left: 50%; /* Positionnement au centre horizontal */
+    border-radius: 50%; /* Bordure arrondie */
+    transform: translate(-50%, -50%) scale(0); /* Réduit l'échelle à 0 */
+    transition: transform 0.5s ease; /* Transition de l'échelle */
+}
+
+/* Animation au survol du bouton */
+QPushButton:hover::after {
+    transform: translate(-50%, -50%) scale(2); /* Augmente l'échelle à 2 */
+}
+</string>
+        </property>
+        <property name="text">
+         <string>Supprimer</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="historique_formation">
+        <property name="geometry">
+         <rect>
+          <x>990</x>
+          <y>380</y>
+          <width>111</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">/* Styles généraux du bouton */
+QPushButton {
+    background-color: #ffffff; /* Bleu clair pour représenter l'eau */
+    border: 2px solid #0EABB8; /* Bordure bleue */
+    color: #0EABB8; /* Texte blanc */
+    padding: 10px ; /* Espacement intérieur */
+
+    font-weight: bold; /* Police en gras */
+    border-radius: 20px; /* Bordure arrondie */
+    outline: none; /* Supprime la bordure de focus */
+  
+    overflow: hidden; /* Cache le contenu débordant */
+    transition: background-color 0.3s, color 0.3s; /* Transition des couleurs */
+}
+
+/* Style au survol du bouton */
+QPushButton:hover {
+    background-color: #0EABB8; /* Fond devient blanc */
+    color: #ffffff; /* Texte devient bleu clair */
+}
+
+/* Style au clic du bouton */
+QPushButton:pressed {
+    background-color: #0EABB8; /* Bleu foncé lors du clic */
+    color: #f8f8f8; /* Texte blanc lors du clic */
+}
+
+/* Animation pour le pseudo-élément :after */
+QPushButton::after {
+    content: ''; /* Contenu vide */
+    position: absolute; /* Position absolue */
+    width: 100%; /* Largeur à 100% */
+    height: 100%; /* Hauteur à 100% */
+    background-color: rgba(255, 255, 255, 0.3); /* Fond semi-transparent */
+    top: 50%; /* Positionnement au centre vertical */
+    left: 50%; /* Positionnement au centre horizontal */
+    border-radius: 50%; /* Bordure arrondie */
+    transform: translate(-50%, -50%) scale(0); /* Réduit l'échelle à 0 */
+    transition: transform 0.5s ease; /* Transition de l'échelle */
+}
+
+/* Animation au survol du bouton */
+QPushButton:hover::after {
+    transform: translate(-50%, -50%) scale(2); /* Augmente l'échelle à 2 */
+}
+</string>
+        </property>
+        <property name="text">
+         <string>Historique</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="stat_formation">
+        <property name="geometry">
+         <rect>
+          <x>990</x>
+          <y>330</y>
+          <width>111</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">/* Styles généraux du bouton */
+QPushButton {
+    background-color: #ffffff; /* Bleu clair pour représenter l'eau */
+    border: 2px solid #0EABB8; /* Bordure bleue */
+    color: #0EABB8; /* Texte blanc */
+    padding: 10px ; /* Espacement intérieur */
+
+    font-weight: bold; /* Police en gras */
+    border-radius: 20px; /* Bordure arrondie */
+    outline: none; /* Supprime la bordure de focus */
+  
+    overflow: hidden; /* Cache le contenu débordant */
+    transition: background-color 0.3s, color 0.3s; /* Transition des couleurs */
+}
+
+/* Style au survol du bouton */
+QPushButton:hover {
+    background-color: #0EABB8; /* Fond devient blanc */
+    color: #ffffff; /* Texte devient bleu clair */
+}
+
+/* Style au clic du bouton */
+QPushButton:pressed {
+    background-color: #0EABB8; /* Bleu foncé lors du clic */
+    color: #f8f8f8; /* Texte blanc lors du clic */
+}
+
+/* Animation pour le pseudo-élément :after */
+QPushButton::after {
+    content: ''; /* Contenu vide */
+    position: absolute; /* Position absolue */
+    width: 100%; /* Largeur à 100% */
+    height: 100%; /* Hauteur à 100% */
+    background-color: rgba(255, 255, 255, 0.3); /* Fond semi-transparent */
+    top: 50%; /* Positionnement au centre vertical */
+    left: 50%; /* Positionnement au centre horizontal */
+    border-radius: 50%; /* Bordure arrondie */
+    transform: translate(-50%, -50%) scale(0); /* Réduit l'échelle à 0 */
+    transition: transform 0.5s ease; /* Transition de l'échelle */
+}
+
+/* Animation au survol du bouton */
+QPushButton:hover::after {
+    transform: translate(-50%, -50%) scale(2); /* Augmente l'échelle à 2 */
+}
+</string>
+        </property>
+        <property name="text">
+         <string>Statistique</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="PDF">
+        <property name="geometry">
+         <rect>
+          <x>990</x>
+          <y>280</y>
+          <width>111</width>
+          <height>38</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">/* Style général du QPushButton */
+QPushButton {
+    border: none; /* Pas de bordure */
+    border-radius: 15px; /* Coins arrondis */
+    padding: 10px; /* Espace intérieur */
+    font-size: 16px; /* Taille de la police */
+    font-family: &quot;Arial&quot;, sans-serif; /* Police de caractère */
+    color: #FFFFFF; /* Couleur du texte */
+    background-color: rgba(255, 0, 0, 0.7); /* Couleur de fond rouge transparente */
+    transition: background-color 0.5s, opacity 0.5s; /* Transition pour la couleur de fond et l'opacité */
+}
+
+/* Style de l'icône */
+QPushButton::icon {
+    width: 50px; /* Largeur de l'icône */
+    height: 50px; /* Hauteur de l'icône */
+    margin-right: 10px; /* Marge à droite de l'icône */
+    border: 2px solid red; /* Bordure rouge autour de l'icône */
+}
+
+/* Style lorsque le bouton est survolé */
+QPushButton:hover {
+    background-color: rgba(255, 0, 0, 0.9); /* Couleur de fond rouge transparente plus foncée au survol */
+}
+
+/* Style lorsque le bouton est enfoncé */
+QPushButton:pressed {
+    background-color: rgba(255, 0, 0, 1); /* Couleur de fond rouge transparente pleine lorsqu'enfoncé */
+    opacity: 1; /* Réduire légèrement l'opacité lors de l'enfoncement */
+}
+
+</string>
+        </property>
+        <property name="text">
+         <string>PDF</string>
+        </property>
+       </widget>
+       <widget class="QTableView" name="tabView_formation">
+        <property name="geometry">
+         <rect>
+          <x>330</x>
+          <y>250</y>
+          <width>631</width>
+          <height>311</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QComboBox" name="tri_form">
+        <property name="geometry">
+         <rect>
+          <x>340</x>
+          <y>210</y>
+          <width>101</width>
+          <height>25</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QComboBox {
+    border: 2px solid #4682B4; /* Bordure de couleur 0EABB8 */
+    font-size: 15px; /* Taille de la police */
+    color: #333; /* Couleur du texte */
+}</string>
+        </property>
+        <item>
+         <property name="text">
+          <string>Id</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Prix</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>DateD</string>
+         </property>
+        </item>
+       </widget>
+       <widget class="QComboBox" name="itemToSearch">
+        <property name="geometry">
+         <rect>
+          <x>700</x>
+          <y>210</y>
+          <width>46</width>
+          <height>25</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QComboBox {
+    border: 2px solid #4682B4; /* Bordure de couleur 0EABB8 */
+    font-size: 15px; /* Taille de la police */
+    color: #333; /* Couleur du texte */
+}</string>
+        </property>
+        <item>
+         <property name="text">
+          <string>Id</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Prix</string>
+         </property>
+        </item>
+       </widget>
+       <widget class="QLineEdit" name="recherche_formation">
+        <property name="geometry">
+         <rect>
+          <x>750</x>
+          <y>210</y>
+          <width>181</width>
+          <height>32</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Arial</family>
+          <pointsize>-1</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">/* Style général du formulaire */
+QLineEdit {
+    border: 2px solid #4682B4; /* Bordure bleue */
+    border-radius: 5px; /* Coins arrondis */
+    padding: 5px; /* Espace intérieur */
+    font-size: 14px; /* Taille de la police */
+    font-family: &quot;Arial&quot;, sans-serif; /* Police de caractère */
+    color: #4682B4; /* Couleur du texte */
+    background-color: #F0F8FF; /* Couleur de fond */
+}
+
+/* Style lorsque le champ de formulaire est en focus */
+QLineEdit:focus {
+    border-color: #1E90FF; /* Bordure bleu clair en focus */
+}
+
+/* Style pour les champs désactivés */
+QLineEdit:disabled {
+    color: #808080; /* Texte gris pour les champs désactivés */
+    background-color: #F5F5F5; /* Fond gris clair pour les champs désactivés */
+}
+</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="chercher_formation">
+        <property name="geometry">
+         <rect>
+          <x>970</x>
+          <y>210</y>
+          <width>121</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">/* Styles généraux du bouton */
+QPushButton {
+    background-color: #ffffff; /* Bleu clair pour représenter l'eau */
+    border: 2px solid #0EABB8; /* Bordure bleue */
+    color: #0EABB8; /* Texte blanc */
+    padding: 10px ; /* Espacement intérieur */
+
+    font-weight: bold; /* Police en gras */
+    border-radius: 20px; /* Bordure arrondie */
+    outline: none; /* Supprime la bordure de focus */
+  
+    overflow: hidden; /* Cache le contenu débordant */
+    transition: background-color 0.3s, color 0.3s; /* Transition des couleurs */
+}
+
+/* Style au survol du bouton */
+QPushButton:hover {
+    background-color: #0EABB8; /* Fond devient blanc */
+    color: #ffffff; /* Texte devient bleu clair */
+}
+
+/* Style au clic du bouton */
+QPushButton:pressed {
+    background-color: #0EABB8; /* Bleu foncé lors du clic */
+    color: #f8f8f8; /* Texte blanc lors du clic */
+}
+
+/* Animation pour le pseudo-élément :after */
+QPushButton::after {
+    content: ''; /* Contenu vide */
+    position: absolute; /* Position absolue */
+    width: 100%; /* Largeur à 100% */
+    height: 100%; /* Hauteur à 100% */
+    background-color: rgba(255, 255, 255, 0.3); /* Fond semi-transparent */
+    top: 50%; /* Positionnement au centre vertical */
+    left: 50%; /* Positionnement au centre horizontal */
+    border-radius: 50%; /* Bordure arrondie */
+    transform: translate(-50%, -50%) scale(0); /* Réduit l'échelle à 0 */
+    transition: transform 0.5s ease; /* Transition de l'échelle */
+}
+
+/* Animation au survol du bouton */
+QPushButton:hover::after {
+    transform: translate(-50%, -50%) scale(2); /* Augmente l'échelle à 2 */
+}
+</string>
+        </property>
+        <property name="text">
+         <string>Chercher</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="background_17">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>1366</width>
+          <height>768</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="pixmap">
+         <pixmap resource="../image/image.qrc">:/background_3.png</pixmap>
+        </property>
+        <property name="scaledContents">
+         <bool>true</bool>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_4">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>140</y>
+          <width>1366</width>
+          <height>768</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="pixmap">
+         <pixmap>../background_2.png</pixmap>
+        </property>
+        <property name="scaledContents">
+         <bool>true</bool>
+        </property>
+       </widget>
+       <zorder>label_4</zorder>
+       <zorder>background_17</zorder>
+       <zorder>supprimer_form</zorder>
+       <zorder>historique_formation</zorder>
+       <zorder>stat_formation</zorder>
+       <zorder>PDF</zorder>
+       <zorder>tabView_formation</zorder>
+       <zorder>tri_form</zorder>
+       <zorder>itemToSearch</zorder>
+       <zorder>recherche_formation</zorder>
+       <zorder>chercher_formation</zorder>
+      </widget>
+      <widget class="QWidget" name="tab_4">
+       <property name="minimumSize">
+        <size>
+         <width>1366</width>
+         <height>768</height>
+        </size>
+       </property>
+       <attribute name="title">
+        <string>Modifier</string>
+       </attribute>
+       <widget class="QLabel" name="background_16">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>1366</width>
+          <height>768</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="pixmap">
+         <pixmap resource="../image/image.qrc">:/background_3.png</pixmap>
+        </property>
+        <property name="scaledContents">
+         <bool>true</bool>
+        </property>
+       </widget>
+       <widget class="QWidget" name="formLayoutWidget_6">
+        <property name="geometry">
+         <rect>
+          <x>430</x>
+          <y>250</y>
+          <width>481</width>
+          <height>371</height>
+         </rect>
+        </property>
+        <layout class="QFormLayout" name="formLayout_11">
+         <property name="sizeConstraint">
+          <enum>QLayout::SetDefaultConstraint</enum>
+         </property>
+         <property name="fieldGrowthPolicy">
+          <enum>QFormLayout::FieldsStayAtSizeHint</enum>
+         </property>
+         <property name="rowWrapPolicy">
+          <enum>QFormLayout::WrapLongRows</enum>
+         </property>
+         <property name="labelAlignment">
+          <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+         </property>
+         <property name="formAlignment">
+          <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+         </property>
+         <property name="horizontalSpacing">
+          <number>20</number>
+         </property>
+         <property name="verticalSpacing">
+          <number>40</number>
+         </property>
+         <property name="leftMargin">
+          <number>0</number>
+         </property>
+         <property name="topMargin">
+          <number>0</number>
+         </property>
+         <item row="0" column="0">
+          <widget class="QLabel" name="nomLabel_10">
+           <property name="font">
+            <font>
+             <family>Bell MT</family>
+             <pointsize>14</pointsize>
+             <weight>75</weight>
+             <bold>true</bold>
+            </font>
+           </property>
+           <property name="text">
+            <string>Spécialité</string>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="1">
+          <widget class="QComboBox" name="specialite_form_2">
+           <property name="styleSheet">
+            <string notr="true">QComboBox {
+    border: 2px solid #4682B4; /* Bordure de couleur 0EABB8 */
+    font-size: 15px; /* Taille de la police */
+    color: #333; /* Couleur du texte */
+}</string>
+           </property>
+           <item>
+            <property name="text">
+             <string>Kayak</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>Plongée sous-marine</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>Surf</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>Voile</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>Stand up paddle (SUP)</string>
+            </property>
+           </item>
+          </widget>
+         </item>
+         <item row="1" column="0">
+          <widget class="QLabel" name="prenomLabel_5">
+           <property name="font">
+            <font>
+             <family>Bell MT</family>
+             <pointsize>14</pointsize>
+             <weight>75</weight>
+             <bold>true</bold>
+            </font>
+           </property>
+           <property name="text">
+            <string>Lieu</string>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="1">
+          <widget class="QComboBox" name="lieu_form_2">
+           <property name="styleSheet">
+            <string notr="true">QComboBox {
+    border: 2px solid #4682B4; /* Bordure de couleur 0EABB8 */
+    font-size: 15px; /* Taille de la police */
+    color: #333; /* Couleur du texte */
+}</string>
+           </property>
+           <item>
+            <property name="text">
+             <string>Sidi Bou Said</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>La marsa</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>Gammarth</string>
+            </property>
+           </item>
+          </widget>
+         </item>
+         <item row="2" column="0">
+          <widget class="QLabel" name="sexeLabel_5">
+           <property name="font">
+            <font>
+             <family>Bell MT</family>
+             <pointsize>14</pointsize>
+             <weight>75</weight>
+             <bold>true</bold>
+            </font>
+           </property>
+           <property name="text">
+            <string>Date debut</string>
+           </property>
+          </widget>
+         </item>
+         <item row="2" column="1">
+          <widget class="QDateEdit" name="dated_f_form_2">
+           <property name="font">
+            <font>
+             <pointsize>10</pointsize>
+            </font>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QLineEdit {
+                border: 2px solid #3498db; /* Bordure bleue */
+                border-radius: 5px;
+                padding: 8px;
+                font-size: 14px;
+                color: #333333; /* Couleur du texte */
+            }
+
+            QLineEdit:focus {
+                border-color: #2980b9; /* Bordure bleue foncée lorsqu'en focus */
+            }</string>
+           </property>
+          </widget>
+         </item>
+         <item row="3" column="0">
+          <widget class="QLabel" name="dateDeNaissanceLabel_10">
+           <property name="font">
+            <font>
+             <family>Bell MT</family>
+             <pointsize>14</pointsize>
+             <weight>75</weight>
+             <bold>true</bold>
+            </font>
+           </property>
+           <property name="text">
+            <string>Date fin</string>
+           </property>
+          </widget>
+         </item>
+         <item row="3" column="1">
+          <widget class="QDateEdit" name="datef_f_form_2">
+           <property name="font">
+            <font>
+             <pointsize>10</pointsize>
+            </font>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QLineEdit {
+                border: 2px solid #3498db; /* Bordure bleue */
+                border-radius: 5px;
+                padding: 8px;
+                font-size: 14px;
+                color: #333333; /* Couleur du texte */
+            }
+
+            QLineEdit:focus {
+                border-color: #2980b9; /* Bordure bleue foncée lorsqu'en focus */
+            }</string>
+           </property>
+          </widget>
+         </item>
+         <item row="4" column="0">
+          <widget class="QLabel" name="posteLabel_5">
+           <property name="font">
+            <font>
+             <family>Bell MT</family>
+             <pointsize>14</pointsize>
+             <weight>75</weight>
+             <bold>true</bold>
+            </font>
+           </property>
+           <property name="text">
+            <string>Niveau de la formation</string>
+           </property>
+          </widget>
+         </item>
+         <item row="4" column="1">
+          <widget class="QComboBox" name="niveau_form_2">
+           <property name="styleSheet">
+            <string notr="true">QComboBox {
+    border: 2px solid #4682B4; /* Bordure de couleur 0EABB8 */
+    font-size: 15px; /* Taille de la police */
+    color: #333; /* Couleur du texte */
+}</string>
+           </property>
+           <item>
+            <property name="text">
+             <string>Debutant</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>Amateur</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>Professionnel</string>
+            </property>
+           </item>
+          </widget>
+         </item>
+         <item row="5" column="0">
+          <widget class="QLabel" name="salaireLabel_10">
+           <property name="font">
+            <font>
+             <family>Bell MT</family>
+             <pointsize>14</pointsize>
+             <weight>75</weight>
+             <bold>true</bold>
+            </font>
+           </property>
+           <property name="text">
+            <string>Prix</string>
+           </property>
+          </widget>
+         </item>
+         <item row="5" column="1">
+          <widget class="QLineEdit" name="prix_form_2">
+           <property name="styleSheet">
+            <string notr="true">/* Style général du formulaire */
+QLineEdit {
+    border: 2px solid #4682B4; /* Bordure bleue */
+    border-radius: 5px; /* Coins arrondis */
+    padding: 5px; /* Espace intérieur */
+    font-size: 14px; /* Taille de la police */
+    font-family: &quot;Arial&quot;, sans-serif; /* Police de caractère */
+    color: #4682B4; /* Couleur du texte */
+    background-color: #F0F8FF; /* Couleur de fond */
+}
+
+/* Style lorsque le champ de formulaire est en focus */
+QLineEdit:focus {
+    border-color: #1E90FF; /* Bordure bleu clair en focus */
+}
+
+/* Style pour les champs désactivés */
+QLineEdit:disabled {
+    color: #808080; /* Texte gris pour les champs désactivés */
+    background-color: #F5F5F5; /* Fond gris clair pour les champs désactivés */
+}
+</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+       <widget class="QComboBox" name="id_form_2">
+        <property name="geometry">
+         <rect>
+          <x>530</x>
+          <y>190</y>
+          <width>171</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QComboBox {
+    border: 2px solid #4682B4; /* Bordure de couleur 0EABB8 */
+    font-size: 15px; /* Taille de la police */
+    color: #333; /* Couleur du texte */
+}</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="nomLabel_11">
+        <property name="geometry">
+         <rect>
+          <x>460</x>
+          <y>190</y>
+          <width>31</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Bell MT</family>
+          <pointsize>14</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="text">
+         <string>ID</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="modifier_form">
+        <property name="geometry">
+         <rect>
+          <x>960</x>
+          <y>390</y>
+          <width>111</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">/* Styles généraux du bouton */
+QPushButton {
+    background-color: #ffffff; /* Bleu clair pour représenter l'eau */
+    border: 2px solid #0EABB8; /* Bordure bleue */
+    color: #0EABB8; /* Texte blanc */
+    padding: 10px ; /* Espacement intérieur */
+
+    font-weight: bold; /* Police en gras */
+    border-radius: 20px; /* Bordure arrondie */
+    outline: none; /* Supprime la bordure de focus */
+  
+    overflow: hidden; /* Cache le contenu débordant */
+    transition: background-color 0.3s, color 0.3s; /* Transition des couleurs */
+}
+
+/* Style au survol du bouton */
+QPushButton:hover {
+    background-color: #0EABB8; /* Fond devient blanc */
+    color: #ffffff; /* Texte devient bleu clair */
+}
+
+/* Style au clic du bouton */
+QPushButton:pressed {
+    background-color: #0EABB8; /* Bleu foncé lors du clic */
+    color: #f8f8f8; /* Texte blanc lors du clic */
+}
+
+/* Animation pour le pseudo-élément :after */
+QPushButton::after {
+    content: ''; /* Contenu vide */
+    position: absolute; /* Position absolue */
+    width: 100%; /* Largeur à 100% */
+    height: 100%; /* Hauteur à 100% */
+    background-color: rgba(255, 255, 255, 0.3); /* Fond semi-transparent */
+    top: 50%; /* Positionnement au centre vertical */
+    left: 50%; /* Positionnement au centre horizontal */
+    border-radius: 50%; /* Bordure arrondie */
+    transform: translate(-50%, -50%) scale(0); /* Réduit l'échelle à 0 */
+    transition: transform 0.5s ease; /* Transition de l'échelle */
+}
+
+/* Animation au survol du bouton */
+QPushButton:hover::after {
+    transform: translate(-50%, -50%) scale(2); /* Augmente l'échelle à 2 */
+}
+</string>
+        </property>
+        <property name="text">
+         <string>modifier</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_3">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>1366</width>
+          <height>768</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="pixmap">
+         <pixmap>../background_2.png</pixmap>
+        </property>
+        <property name="scaledContents">
+         <bool>true</bool>
+        </property>
+       </widget>
+       <zorder>label_3</zorder>
+       <zorder>background_16</zorder>
+       <zorder>formLayoutWidget_6</zorder>
+       <zorder>id_form_2</zorder>
+       <zorder>nomLabel_11</zorder>
+       <zorder>modifier_form</zorder>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1366</width>
+     <height>26</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources>
+  <include location="../image/image.qrc"/>
+  <include location="../image/image.qrc"/>
+  <include location="../image/image.qrc"/>
+ </resources>
+ <connections/>
+</ui>

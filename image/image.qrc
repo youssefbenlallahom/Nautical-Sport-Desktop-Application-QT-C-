@@ -1,0 +1,27 @@
+<RCC>
+    <qresource prefix="/">
+        <file>menu.jpg</file>
+        <file>logo.png</file>
+        <file>login.jpg</file>
+        <file>search-512.webp</file>
+        <file>background.jpg</file>
+        <file>background_3.png</file>
+        <file>refresh-button_61444.png</file>
+        <file>111-1114669_blank-person-hd-png-download.png</file>
+        <file>pngwing.com.png</file>
+        <file>pdf.png</file>
+        <file>stat.png</file>
+        <file>image.qrc</file>
+        <file>logo.ico</file>
+        <file>ocean.gif</file>
+        <file>youssef.jpg</file>
+        <file>pngegg.png</file>
+        <file>historique-icone-de-l-historique-noir.png</file>
+        <file>kindpng_208086.png</file>
+        <file>—Pngtree—right arrow flat multi color_3777297.png</file>
+        <file>deconnexion.png</file>
+        <file>materiel-de-reparation.png</file>
+        <file>pngegg (1).png</file>
+        <file>produit.png</file>
+    </qresource>
+</RCC>
